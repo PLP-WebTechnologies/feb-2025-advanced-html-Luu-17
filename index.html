@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Adv. html & Forms</title>
+    </head>
+    <body>
+        <h4>Ordered roman numeral list</h4>
+
+        <ol type="I">
+            <li>First</li>
+            <li>Second</li>
+            <li>Third</li>
+            <li>Fourth</li>
+            <li>Fifth</li>
+        </ol>
+        <br><br>
+        <hr>
+
+        <h4>External Image</h4>
+        <img height="400" src="https://i.pinimg.com/736x/39/e8/f0/39e8f0ffea0b56c4d3a08a349895dd1a.jpg" alt="Cat sipping tea">
+
+        <hr>
+        <h3>Table</h3>
+        <table border="2">
+            <tr>
+                <th>Name</th>
+                <th>Adress</th>
+                <th>Email</th>
+                <th>Mobile</th>
+            </tr>
+            <tr>
+                <td>Lukhanyo</td>
+                <td>1234 Street</td>
+                <td>Luu17@gmail.com</td>
+                <td>0814312307</td>
+            </tr>
+            <tr>
+                <td>Sizwe</td>
+                <td>32 Amalgam </td>
+                <td>Smbongo@gmail.com</td>
+                <td>068651358</td>
+            </tr>
+            <tr>
+                <td>Bob</td>
+                <td>654 Nairobi</td>
+                <td>bobmabena@gmail.com</td>
+                <td>0654318307</td>
+            </tr>
+        </table>
+
+        <br><br>
+        <hr>
+        <h3>Registration Form</h3>
+
+        <form>
+            <lable for="name">Name: </lable>
+            <input type="text" id="name" name="name" placeholder="John Doe" required>
+            
+            <br><br>
+            
+            <lable for="email">Email: </lable>
+            <input type="email" id="email" placeholder="example@gmail.com" required>
+            
+            <br><br>
+
+            <label for="DOB">Date of Birth: </label><input type="date" name="DOB"> <br><br>
+
+            <label for="gender">Gender</label><br>
+            <input type="radio" name="gender" value="Male" required>Male
+            <input type="radio" name="gender" value="Female" required>Female
+
+            <br><br>
+
+            <label for="subjects">Subject</label>
+            <input type="checkbox" name="subject" value="english">English
+            <input type="checkbox" name="subject" value="mathematics">Mathematics
+            <input type="checkbox" name="subject" value="tourism">Tourism
+
+            <br><br>
+            <label for="Session">Session</label>
+
+
+            <br><br>
+            <label for="password">Password</label><input type="password" name="passowrd" id="passowrd">
+            <br><br>
+
+            <select name="Session" required>
+                <option>--select session--</option>
+                <option>Morning</option>
+                <option>Afternoon</option>
+                <option>Evening</option>
+                <option>Weekend</option>
+
+            </select>
+            <br><br>
+            <input type="submit"> <!--</n></n>-->
+            <input type="reset">
+        </form>
+
+
+
+
+    </body>
+</html>
